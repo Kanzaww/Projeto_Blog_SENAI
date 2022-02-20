@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Blog Contato</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contato.css">
+    <script src="https://kit.fontawesome.com/74f5d82ab4.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header id="header">
+        <nav class="wrapper flex">
+            <h3>Logo Blog</h3>
+            <div class="links_menu">
+                <a href="../index.html">Blog</a>
+                <a href="./contato.html" class="link_display">Contato</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="contact_section" class="wrapper">
+            <div class="contact_text">
+                <h2>Entre em contato</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit lacus a ante mollis,
+                    congue pretium leo eleifend. Maecenas faucibus lacinia laoreet. </p>
+            </div>
+            <form id="contact_form">
+                <div class="input_form flex">
+                    <div class="input_text">
+                        <label for="user_name">Nome</label>
+                        <input id="user_name" type="text" placeholder="Digite seu nome">
+                    </div>
+                    <div class="input_text">
+                        <label for="user_email">E-mail</label>
+                        <input id="user_email" type="email" placeholder="Digite seu e-mail">
+                    </div>
+                    <div class="input_text input_textarea">
+                        <label for="user_message">Mensagem</label>
+                        <textarea id="user_message" placeholder="Digite sua mensagem" maxlength="280"></textarea>
+                    </div>
+                </div>
+                <button type="submit" id="btn_send">Enviar mensagem!</button> 
+                <!-- não há back-end disponível para o envio. -->
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Todos os direitos Reservados </p>
+    </footer>
+</body>
+
+</html>
